@@ -12,15 +12,18 @@
     <div class="flex items-center justify-center h-full">
       <div class="p-6">
         <div class="flex items-center -mx-2 mb-4">
-          <div class="flex items-center mx-2">
+          <div class="flex items-center">
             <!-- @todo Disable the color picker when erase is enabled -->
-            <img
-              src="/images/icons/swatch.svg"
-              alt="Swatch"
-              height="20"
-              width="20"
-              class="mr-2"
-            />
+            <label for="color">
+              <span class="sr-only">Select Color</span>
+              <img
+                src="/images/icons/swatch.svg"
+                alt="Swatch"
+                height="20"
+                width="20"
+                class="mr-2"
+              />
+            </label>
             <input
               name="color"
               id="color"
@@ -31,13 +34,16 @@
           </div>
 
           <div class="flex items-center mx-2">
-            <img
-              src="/images/icons/pencil.svg"
-              alt="Pencil"
-              height="20"
-              width="20"
-              class="mr-2"
-            />
+            <label class="flex items-center" for="bush_size">
+              <span class="sr-only">Select Color</span>
+              <img
+                src="/images/icons/pencil.svg"
+                alt="Pencil"
+                height="20"
+                width="20"
+                class="mr-2"
+              />
+            </label>
             <input
               name="bush_size"
               id="bush_size"
